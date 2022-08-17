@@ -1,0 +1,67 @@
+.form__task {
+    width: 100%;
+    font-size: 1.2rem;
+    font-family: 'Hubballi', cursive;
+    background-color: #b3cfff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 2px  rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
+}
+input:focus {
+    outline: none;
+    color: #b3cfff;
+}
+
+.form__task-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-left: 20px;
+    color: #f5f5f5;
+    align-self: center;
+}
+.form__task-group {
+    display: flex;
+    height: 100px;
+    flex-direction: column;
+    padding:0 20px 50px 20px;
+    justify-content: center;
+}
+.form__task-group label {
+    margin-left: 60px;
+}
+.form__task-group input {
+    width: 90%;
+    align-self: center;
+    padding: .5rem .8rem .5rem .8rem;
+    border:0;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__task-submit {
+    align-self: center;
+    margin-bottom: 10px;
+    width: 20%;
+    height: 100%;
+    border: none;
+    background-color: #a1c3ffce;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.form__task-submit:hover {
+    background-color: #fff;
+    color:#b3cfff;
+}

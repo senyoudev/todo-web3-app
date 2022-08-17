@@ -1,0 +1,14 @@
+.App {
+  max-width: 1140px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.app__title {
+  font-family: 'Hubballi', cursive;
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin: 20px 0;
+}
